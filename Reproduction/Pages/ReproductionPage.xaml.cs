@@ -1,8 +1,8 @@
 namespace Reproduction.Pages;
 
-public partial class CarouselPage
+public partial class ReproductionPage
 {
-    public CarouselPage()
+    public ReproductionPage()
     {
         InitializeComponent();
     }

@@ -19,6 +19,6 @@ public partial class MainPage
 
         SemanticScreenReader.Announce(CounterBtn.Text);
         
-        Navigation.PushAsync(new CarouselPage(), true);
+        Navigation.PushAsync(new ReproductionPage(), true);
     }
 }
