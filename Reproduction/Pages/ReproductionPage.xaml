@@ -5,6 +5,7 @@
              Shell.PresentationMode="ModalAnimated"
              HideSoftInputOnTapped="True"
              x:Class="Reproduction.Pages.ReproductionPage">
+    <!-- .net 9: HideSoftInputOnTapped does not work with Shell.PresentationMode="ModalAnimated" -->
     <VerticalStackLayout>
         <Entry Text="Some text" />
         <Entry />
