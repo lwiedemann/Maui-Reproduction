@@ -14,7 +14,7 @@
         Route="MainPage" />
 
     <ShellContent
-        Title="Carousel"
-        ContentTemplate="{DataTemplate pages:CarouselPage}"
-        Route="CarouselPage"/>
+        Title="Reproduction"
+        ContentTemplate="{DataTemplate pages:ReproductionPage}"
+        Route="ReproductionPage"/>
 </Shell>
